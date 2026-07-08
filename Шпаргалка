@@ -1,0 +1,8 @@
+Порядок властивостей CSS
+1. Позиціонування (position, top, left, right, bottom)
+2. Блочна модель (Flexbox або Grid display, flex-direction, gap)
+3. Відступи (margin, padding)
+4. Оформлення.графіка (фон, border, border-radius)
+5. Кольори та шрифти (color, font-family, font-size)
+6. Інші властивості (cursor.затримка анімації transition)
+7. Псевдокласи та псевдоелементи (hover, before, after)
