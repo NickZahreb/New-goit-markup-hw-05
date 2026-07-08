@@ -32,6 +32,10 @@
   color: var(--cloud);
 }
 
+.footer-social {
+  margin-right: 83px;
+}
+
 .footer-social-title {
   margin-bottom: 16px;
 
@@ -65,5 +69,44 @@
 
 .footer-social-link:hover,
 .footer-social-link:focus {
+  background-color: var(--ocean);
+}
+
+.footer-form-title {
+  margin-bottom: 16px;
+
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+
+  color: var(--white);
+}
+
+.footer-form-input {
+  width: 264px;
+  height: 40px;
+  padding: 13px 16px;
+
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  border: 1px solid var(--white);
+  border-radius: 4px;
+
+  background-color: var(--navy-blue) ;
+  color: var(--white);
+}
+
+.footer-form-button {
+  padding: 8px 16px;
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+
+  color: var(--white);
   background-color: var(--ocean);
 }
