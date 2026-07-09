@@ -1,6 +1,40 @@
-button,
-input {
+.input-test,
+.button-test {
     font-family: inherit;
+    line-height: inherit;
 }
 
+.form-test {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 16px;
+    border-radius: 12px;
+    outline: 1px solid #e0e0e0;
+    max-width: 320px;
+    background-color: #c2c79d;
+}
 
+.label-test {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.input-test {
+    padding: 8px 12px;
+    color: #212121;
+    border: 1px solid #9e9e9e;
+    border-radius: 4px;
+}
+
+.button-test {
+    align-self: flex-start;
+    padding: 10px 24px;
+    background-color: #ba51de;
+    color: #e3f2fd;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}

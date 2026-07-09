@@ -406,14 +406,18 @@
       </div>
     </section>
 
-    <form>
+    <form class="form-test" action="#" method="post">
       <!-- Елементи форми -->
+      <label class="label-test" for="username">Username:
+        <input class="input-test" type="text" name="username" />
+      </label>
 
-      <button type="submit">Submit feedback</button>
+      <label class="label-test" for="email">Email:
+        <input class="input-test" type="text" name="email" />
+      </label>
 
-      <input type="text" />
-      <input type="text" name="username" />
 
+      <button class="button-test" type="submit">Submit feedback</button>
 
     </form>
 
@@ -469,11 +473,17 @@
           </ul>
         </div>
 
-        <div class="footer-form">
+        <div class="footer-form-wrapper">
           <h4 class="footer-form-title">Subscribe</h4>
           <form class="footer-form" action="#" method="post">
-            <input class="footer-form-input" type="text" name="email" placeholder="E-mail" required />
-            <button class="footer-form-button" type="submit">Subscribe</button>
+            <!-- <label class="footer-form-label"> Subscribe -->
+              <input class="footer-form-input" type="text" name="email" placeholder="E-mail" required />
+            <!-- </label> -->
+            <button class="footer-form-button" type="submit">Subscribe
+              <svg class="footer-form-icon" width="16" height="16" fill="var(--white)">
+                <use href="./images/sprite.svg#icon-instagram"></use>
+              </svg>
+            </button>
           </form>
         </div>
 
